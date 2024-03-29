@@ -14,3 +14,23 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# -----------------------
+def test():
+    a = 5
+    b = 8
+    print(a,b)
+# -----------------------
+def test2(a,b,c):
+    print(a,b,c)
+# -----------------------
+def test3(a,b,c):
+    c = 'String'
+    print(a, b, c)
+# -----------------------
+test()
+a = 10
+b = 15
+c = 20
+test2(a,b,c)
+test3(1,b,c)
+
