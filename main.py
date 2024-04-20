@@ -6,4 +6,4 @@ def test_function():
 
 test_function()
 print('-------------------------------')
-#inner_function()
+inner_function()
