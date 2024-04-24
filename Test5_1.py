@@ -16,5 +16,6 @@ my_house = House()
 print('Initial number of Floors = ',my_house.numberOfFloors)
 print('==================================')
 floors = 18
+print(floors)
 my_house.setNewNumberOfFloors(floors)
 
