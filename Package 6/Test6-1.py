@@ -23,7 +23,8 @@ class Nissan(Car):
 
 class KIA (Car):
 #    horse_power = 110
-    price = 2500000
+#    price = 2500000
+    pass
     def horse_powers(self):
         print(self.__class__.__name__, self.name, ':', 'horse power =', self.horse_power)
 
